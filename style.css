@@ -1,0 +1,25 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+
+.mainbox{
+    background-color: hsl(244, 38%, 16%);
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.boxsecond{
+    display: flex;
+}
+
+.subbox{
+    margin-right: 60px;
+}
+
+.image{
+    width: 500px;
+}

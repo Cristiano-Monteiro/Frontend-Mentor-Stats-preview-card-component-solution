@@ -1,25 +1,64 @@
 body{
     background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+    color: white;
+    font-family: 'Inter', sans-serif;
 }
 
 .mainbox{
     background-color: hsl(244, 38%, 16%);
-    width: 1000px;
+    width: 850px;
+    height: 352px;
     display: flex;
     margin: auto;
     box-sizing: border-box;
     border-radius: 7px;
     overflow: hidden;
+    margin-top: 135px;
+}
+
+.maincard{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 70px;
+}
+
+.colorwords{
+    display: inline;
+    color: hsl(277, 64%, 61%);
+}
+
+h1{
+    font-size: 28.5px;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.firstparagraph{
+    font-size: 12.5px;
+    line-height: 20px;
 }
 
 .boxsecond{
     display: flex;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.secondparagraph{
+    font-size: 11px;
 }
 
 .subbox{
-    margin-right: 60px;
+    margin-right: 40px;
+    line-height: 7px;
 }
 
 .image{
-    width: 500px;
+    width: 420px;
 }

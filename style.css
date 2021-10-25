@@ -62,3 +62,7 @@ h2{
 .image{
     width: 420px;
 }
+
+@media screen and (max-width: 375px) {
+
+}

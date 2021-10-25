@@ -64,5 +64,50 @@ h2{
 }
 
 @media screen and (max-width: 375px) {
+    .mainbox{
+        display: block;
+        width: 300px;
+        height: 730px;
+        margin: auto;
+        margin-right: 40px;
+        margin-top: 80px;
+    }
 
+    .maincard{
+        position: relative;
+        top: 270px;
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-right: 35px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 23px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .firstparagraph{
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .boxsecond{
+        display: block;
+        margin-top: 50px;
+        margin-left: 90px;
+
+    }
+
+    .subbox{
+        margin-bottom: 35px;
+        line-height: 7px;
+    }
+
+    .image{
+        position: relative;
+        bottom: 440px;
+        width: 300px;
+    }
 }

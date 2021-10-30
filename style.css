@@ -102,10 +102,8 @@ h2{
     }
 
     .boxsecond{
-        display: block;
         margin-top: 50px;
         margin-left: 90px;
-
     }
 
     .h2-1{
@@ -134,5 +132,50 @@ h2{
         position: relative;
         bottom: 440px;
         width: 300px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .mainbox{
+        width: 1130px;
+        height: 500px;
+        margin-top: 152px;
+    }
+
+    .maincard{
+        margin-top: 60px;
+        margin-left: 5px;
+        margin-right: 70px; 
+        position: relative;
+        left: 50px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .firstparagraph{
+        max-width: 392px;
+        text-align: left;
+        font-size: 17px;
+        line-height: 29px;
+    }
+
+    h2{
+        font-size: 27px;
+    }
+
+    .secondparagraph-1, .secondparagraph-2, .secondparagraph-3{
+        font-size: 15px;
+    }
+
+    .subbox{
+        margin-bottom: 35px;
+        line-height: 15px;
+        margin-right: 75px;
+    }
+
+    .image{
+        width:920px;
     }
 }

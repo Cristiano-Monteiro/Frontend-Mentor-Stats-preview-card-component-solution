@@ -7,3 +7,5 @@ Desafio retirado do site Frontend Mentor // Challenge taken from the Frontend Me
 https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62
 
 Preview site: https://cristiano-monteiro.github.io/Project-FrontEnd-basic-02/
+
+(PROJETO FINALIZADO)

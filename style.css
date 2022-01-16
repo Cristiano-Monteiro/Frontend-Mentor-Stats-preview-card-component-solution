@@ -72,72 +72,6 @@ h2{
     width: 420px;
 }
 
-@media screen and (max-width: 375px) {
-    main{
-        display: block;
-        width: 300px;
-        height: 730px;
-        margin: auto;
-        margin-right: 30px;
-        margin-top: 80px;
-        margin-bottom: 80px;
-    }
-
-    .maincard{
-        position: relative;
-        top: 270px;
-        margin-top: 15px;
-        margin-left: 30px;
-        margin-right: 35px;
-    }
-
-    h1{
-        text-align: center;
-        font-size: 23px;
-        margin: 0;
-        padding: 0;
-    }
-
-    .firstparagraph{
-        text-align: center;
-        font-size: 13px;
-    }
-
-    .boxsecond{
-        margin-top: 20px;
-        margin-left: 90px;
-        display: inline-block;
-    }
-
-    .h2-1{
-        margin-left: 8px;
-    }
-
-    .h2-2{
-        margin-left: 13px;
-    }
-
-    .h2-3{
-        margin-left: 8px;
-    }
-
-    .secondparagraph-3{
-        position: relative;
-        left: 8px;
-    }
-
-    .subbox{
-        margin-bottom: 35px;
-        line-height: 7px;
-    }
-
-    .image{
-        position: relative;
-        bottom: 439px;
-        width: 300px;
-    }
-}
-
 @media screen and (min-width: 1440px) {
     main{
         width: 1130px;
@@ -186,5 +120,210 @@ h2{
 @media screen and (max-width: 1280px) {
     main{
         margin-top: 23%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main{
+        display: block;
+        width: 450px;
+        height: 830px;
+        margin: auto;
+        margin-right: 10rem;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .maincard{
+        position: relative;
+        top: 400px;
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-right: 35px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 23px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .firstparagraph{
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .boxsecond{
+        margin-top: 20px;
+        margin-left: 40%;
+        display: inline-block;
+    }
+
+    .h2-1{
+        margin-left: 8px;
+        font-size: 30px;
+    }
+
+    .h2-2{
+        margin-left: 13px;
+        font-size: 30px;
+    }
+
+    .h2-3{
+        margin-left: 8px;
+        font-size: 30px;
+    }
+
+    .secondparagraph-3{
+        position: relative;
+        left: 8px;
+    }
+
+    .subbox{
+        margin-bottom: 35px;
+        line-height: 7px;
+    }
+
+    .subbox p{
+        font-size: 15px;
+    }   
+
+    .image{
+        position: relative;
+        bottom: 425px;
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    main{
+        display: block;
+        width: 300px;
+        height: 730px;
+        margin: auto;
+        margin-right: 13%;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .maincard{
+        position: relative;
+        top: 270px;
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-right: 35px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 23px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .firstparagraph{
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .boxsecond{
+        margin-top: 20px;
+        margin-left: 32%;
+        display: inline-block;
+    }
+
+    .h2-1{
+        margin-left: 8px;
+    }
+
+    .h2-2{
+        margin-left: 13px;
+    }
+
+    .h2-3{
+        margin-left: 8px;
+    }
+
+    .secondparagraph-3{
+        position: relative;
+        left: 8px;
+    }
+
+    .subbox{
+        margin-bottom: 35px;
+        line-height: 7px;
+    }
+
+    .image{
+        position: relative;
+        bottom: 472px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    main{
+        display: block;
+        width: 300px;
+        height: 730px;
+        margin: auto;
+        margin-right: 30px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .maincard{
+        position: relative;
+        top: 270px;
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-right: 35px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 23px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .firstparagraph{
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .boxsecond{
+        margin-top: 20px;
+        margin-left: 32%;
+        display: inline-block;
+    }
+
+    .h2-1{
+        margin-left: 8px;
+    }
+
+    .h2-2{
+        margin-left: 13px;
+    }
+
+    .h2-3{
+        margin-left: 8px;
+    }
+
+    .secondparagraph-3{
+        position: relative;
+        left: 8px;
+    }
+
+    .subbox{
+        margin-bottom: 35px;
+        line-height: 7px;
+    }
+
+    .image{
+        position: relative;
+        bottom: 470px;
+        width: 300px;
     }
 }

@@ -76,7 +76,7 @@ h2{
     main{
         width: 1130px;
         height: 500px;
-        margin-top: 152px;
+        margin-top: 14%;
     }
 
     .maincard{
@@ -193,6 +193,12 @@ h2{
         position: relative;
         bottom: 425px;
         width: 460px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    main{
+        margin-left: 7%;
     }
 }
 
@@ -325,5 +331,11 @@ h2{
         position: relative;
         bottom: 470px;
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    main{
+        margin-left: 6%;
     }
 }

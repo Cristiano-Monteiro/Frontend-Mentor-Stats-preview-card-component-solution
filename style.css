@@ -339,3 +339,24 @@ h2{
         margin-left: 6%;
     }
 }
+
+@media screen and (max-width: 280px) {
+    main{
+        width: 90%;
+        height: 750px;
+    }
+
+    .maincard{
+        top: 230px;
+    }
+
+    .boxsecond{
+        margin-left: 26%;
+    }
+
+    .image{
+        position: relative;
+        bottom: 520px;
+        width: 250px;
+    }
+}

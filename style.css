@@ -1,22 +1,22 @@
 body{
+    margin: 0%;
+    height: 100vh;
     background-color: hsl(233, 47%, 7%);
     font-size: 15px;
     color: white;
     font-family: 'Inter', sans-serif;
+    display: flex;
 }
 
 main{
     background-color: hsl(244, 38%, 16%);
     width: 100%;
     max-width: 850px;
-    height: 352px;
+    height: 360px;
     display: flex;
-    margin: auto;
     box-sizing: border-box;
     border-radius: 7px;
     overflow: hidden;
-    margin-top: 15%;
-    margin-bottom: 15%;
 }
 
 .maincard{
@@ -73,6 +73,8 @@ h2{
     width: 420px;
 }
 
+/*
+
 @media screen and (min-width: 1440px) {
     main{
         width: 1130px;
@@ -117,6 +119,8 @@ h2{
         width:920px;
     }
 }
+*/
+
 
 @media screen and (max-width: 1280px) {
     main{

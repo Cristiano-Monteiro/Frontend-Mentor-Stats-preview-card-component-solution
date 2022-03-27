@@ -14,16 +14,16 @@ body{
 main{
     background-color: hsl(244, 38%, 16%);
     width: 100%;
-    max-width: 950px;
+    max-width: 85%;
     height: auto;
-    display: flex;
     border-radius: 7px;
     overflow: hidden;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .maincard{
-    margin: 0% 7%;
+    margin: 4% 12% 0% 12%;
 }
 
 span{
@@ -32,7 +32,7 @@ span{
 }
 
 .maincard h1{
-    font-size: 2.1em;
+    font-size: 3vw;
 }
 
 p{
@@ -40,57 +40,60 @@ p{
 }
 
 .firstparagraph{
-    font-size: 1.2em;
-    line-height: 20px;
+    font-size: 1.3vw;
+    line-height: 2vw;
 }
 
 .boxsecond{
     display: flex;
-    margin-top: 40px;
+    margin-top: 6vw;
 }
 
 .boxsecond h2{
-    font-size: 25px;
+    font-size: 2vw;
 }
 
 .boxsecond p{
-    font-size: 13px;
+    font-size: 1.1vw;
 }
 
 .subbox{
-    margin-right: 40px;
-    line-height: 7px;
+    margin-right: 16%;
+    line-height: 1vw;
 }
 
-.image{
+figure{
+    margin: 0%;
+}
+
+figure img{
     width: 100%;
 }
 
-@media screen and (max-width: 970px) {
-    body{
-        height: auto;
-    }
-
+@media screen and (max-width: 500px) {
     main{
+        max-width: 80%;
+        margin: auto 0%;
+        display: flex;
         flex-direction: column-reverse;
-        max-width: 60%;
-        margin: 20% 0%;
     }
 
     .maincard{
-        margin: 10% 5%;
+        margin: 5% 5%;
     }
 
     .maincard h1{
         text-align: center;
-        font-size: 2em;
-        margin: 0%;
+        margin: 3% 0%;
         padding: 0%;
+        font-size: 7.5vw;
     }
 
     .firstparagraph{
         text-align: center;
-        font-size: 1.3em;
+        font-size: 4vw;
+        line-height: 6vw;
+        margin-bottom: 10%;
     }
 
     .boxsecond{
@@ -101,11 +104,13 @@ p{
     }
 
     .boxsecond h2{
-        font-size: 2em;
+        font-size: 7vw;
+        margin-bottom: 20%;
     }
 
     .subbox{
         margin: 0%;
+        margin-bottom: 5%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -113,30 +118,6 @@ p{
     }
 
     .subbox p{
-        font-size: 1em;
-    }
-}
-
-@media screen and (max-width: 560px) {
-    main{
-        max-width: 80%;
-    }
-
-    .maincard h1{
-        font-size: 1.5em;
-    }
-
-    .firstparagraph{
-        font-size: 1em;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .maincard h1{
-        font-size: 1.2em;
-    }
-
-    .firstparagraph{
-        font-size: 0.8em;
+        font-size: 4vw;
     }
 }

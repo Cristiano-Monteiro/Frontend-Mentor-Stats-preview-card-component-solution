@@ -18,6 +18,15 @@
 ## My-process / Meu processo
 ### Built with / Construído com
 - CSS Flexbox 
+- CSS Grid
+
+### What I learned / O que eu aprendi
+```css
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+```
 
 ## Author / Autor
 - Frontend Mentor - [@Cristiano-Monteiro](https://www.frontendmentor.io/profile/Cristiano-Monteiro)

@@ -1,6 +1,6 @@
 <div>
-    <img src="https://user-images.githubusercontent.com/91402144/149593450-ddf3bc8c-5530-42c2-abc8-430a7540e43d.jpg" width="450px">
-    <img src="https://user-images.githubusercontent.com/91402144/160966824-6cb79852-7ae7-47b6-a54f-7aad21706b72.png" width="152px">
+    <img src="https://user-images.githubusercontent.com/91402144/149593450-ddf3bc8c-5530-42c2-abc8-430a7540e43d.jpg" width="55%">
+    <img src="https://user-images.githubusercontent.com/91402144/160966824-6cb79852-7ae7-47b6-a54f-7aad21706b72.png" width="18.6%">
 </div>
 
 # Frontend Mentor - Stats preview card component solution

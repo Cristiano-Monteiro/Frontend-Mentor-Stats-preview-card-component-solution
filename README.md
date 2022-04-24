@@ -12,8 +12,8 @@
 - (PT-BR) Desafio de uma página de visualização de estatísticas usando apenas HTML e CSS.
 
 ### Links
-- Solution URL: https://github.com/Cristiano-Monteiro/Project-FrontEnd-basic-02
-- Live Site URL: https://cristiano-monteiro.github.io/Project-FrontEnd-basic-02/
+- Solution URL: https://github.com/Cristiano-Monteiro/Frontend-Mentor-Stats-preview-card-component-solution
+- Live Site URL: https://cristiano-monteiro.github.io/Frontend-Mentor-Stats-preview-card-component-solution/
 
 ## My-process / Meu processo
 ### Built with / Construído com
